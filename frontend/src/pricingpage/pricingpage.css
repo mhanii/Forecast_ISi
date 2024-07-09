@@ -1,0 +1,66 @@
+.pricing-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: "Jersey 20", sans-serif;
+  }
+  
+
+  
+  .pricing-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .pricing-card h2 {
+    color: 3498db;
+    margin: 0;
+    font-size: 2.5rem;
+    background-color: #d7efff;
+    border-radius: 0.25rem;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    margin:2rem ;
+    font-size: 1.25rem;
+    color: #3498db;
+  }
+  
+  .pricing-card li {
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pricing-card button:hover {
+    background-color: #2980b9;
+  }

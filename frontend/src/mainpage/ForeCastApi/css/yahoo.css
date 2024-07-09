@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.weather-container-yahoo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background: #3498db47;
+}
+.empty-forecast{
+  width: 100%;
+}
+/* .weather-container-yahoo :last{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.current-weather, .forecast-day {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom:2rem;
+  width: 21.2%;
+}
+.weather-container-yahoo .current-weather {
+  width: 100%;
+  max-width: 100vw;
+  font-family: "Jersey 20", sans-serif ;
+  font-size: 1.5rem;
+}
+.weather-container-yahoo .current-weather .weather-details_1{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+}
+.weather-container-yahoo .current-weather .weather-details_2{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+
+}
+.weather-container-yahoo .current-weather .date-location{
+    font-size: 2rem;
+    color: white;
+}
+.details_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: #ffffffb0;
+    font-size: 1.2rem;
+    margin-top: -3rem;
+}
+.date-location {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.current-temp, .forecast-temp {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.emoji {
+  font-size: 3em;
+  margin-right: 10px;
+}
+
+.temp {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.low-high {
+  font-size: 1.5em;
+  color: #888;
+}
+
+.weather-description {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.weather-details div {
+  margin-bottom: 5px;
+}
+
+.forecast-day {
+  background-color: #f9f9f9;
+}
+
+.forecast-day .emoji {
+  font-size: 2em;
+}
+
+.forecast-day .temp {
+  font-size: 2em;
+}
+
+.forecast-day .low-high {
+  font-size: 1.2em;
+}

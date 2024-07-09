@@ -1,0 +1,90 @@
+.plan-tab-container {
+    background: linear-gradient(39deg, rgba(0, 103, 155, 0.19) 0%, rgba(255, 237, 211, 0.59) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #297fb9b6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.plan-tab-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
+.weather-details-container {
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    padding: 0.75rem;
+    color: #ffffff;
+    backdrop-filter: blur(10px);
+}
+
+.upcoming-plans .weather-details {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.weather-details-image {
+    height: 3rem;
+    width: 3rem;
+}
+
+.weather-details-text {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.plan-tab-title {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #3498db;
+}
+
+.plan-tab-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #297fb9b6;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    text-shadow: none;
+    backdrop-filter: blur(10px);
+}
+
+.plan-tab-description-text {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.plan-tab-date {
+    margin: 0.5rem 0 0;
+    font-size: 0.8rem;
+    text-align: right;
+}
+.plan-tab-container .weather-details-text{
+    font-size: 1.5rem;
+}
+.weather-details-text.high_degree{
+    color: #eab332;
+}
+.weather-details-text.low_degree{
+    font-size: 1rem;
+    color: #3498db;
+}

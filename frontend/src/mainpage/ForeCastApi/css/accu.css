@@ -1,0 +1,120 @@
+.weather-forecast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1427px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .current-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: -webkit-fill-available;
+    max-width: 100vw;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+.weather-container .current-weather{
+  margin: 1rem;
+  padding: 1rem;
+}
+  .current-weather-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .current-weather-icon {
+    font-size: 6rem;
+    margin-right: 2rem;
+  }
+  
+  .current-weather-temp {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .temp-unit {
+    font-size: 2rem;
+    vertical-align: super;
+  }
+  
+  .current-weather-details {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .current-weather-details p {
+    margin: 0.5rem 0;
+  }
+  
+  .weather-phrase {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hourly-forecast-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .weather-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  
+  .weather-card {
+    flex: 0 0 auto;
+    width: 150px;
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .weather-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .weather-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .temperature {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .secondary-info {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .time {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+
+.current-weather-title{
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+}
